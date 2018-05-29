@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Classes.Modules
 {
+    [Serializable]
     public class Service
     {
         public int CountPeolpe { get; set; }
